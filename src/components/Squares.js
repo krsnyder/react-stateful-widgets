@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /*
 SQUARES Instructions
 
@@ -35,7 +36,7 @@ export default function Squares() {
     // as the argument matches the active square in state, empty string otherwise.
     // Right-click and "inspect element" on the square to see its effect.
 
-    return id === activeSquare ? 'active' : ""
+    return id === activeSquare ? ' active' : ""
   };
 
   const markActive = id => {
